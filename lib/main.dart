@@ -29,10 +29,11 @@ class LoginPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Image.asset('lib/assets/images/dc.webp'),
             const TextField(
               style: TextStyle(),
               decoration: InputDecoration(
-                labelText: 'Username',
+                labelText: 'Masukan Username',
                 labelStyle: TextStyle(color: Colors.red),
                 border: OutlineInputBorder(),
               ),
@@ -41,7 +42,7 @@ class LoginPage extends StatelessWidget {
             const TextField(
               obscureText: true,
               decoration: InputDecoration(
-                labelText: 'Password',
+                labelText: 'Masukan Password',
                 labelStyle: TextStyle(color: Colors.red),
                 border: OutlineInputBorder(),
               ),
